@@ -1,5 +1,7 @@
 FROM alpine:3.11
-MAINTAINER Johan Bergström <bugs@bergstroem.nu>
+
+# Maintainer is deprecated, use LABEL.
+# MAINTAINER Johan Bergström <bugs@bergstroem.nu>
 
 # Build-time metadata as defined at http://label-schema.org
 # DEPRECATED IN FAVOUR OF OCI IMAGE SPEC !!!
